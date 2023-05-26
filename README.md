@@ -20,3 +20,6 @@ Code - OOP Programming of the Project:
   - **optimiser.py** loads the SGD and ADAM optimisers from PyTorch.
   - **readFiles.py** reads the directories of the images saved in "./dfuc2022/"
   - **training.py** provides the training loop for training and evaluation of validation data.
+
+Example Model Save:
+Shows an example of how the model and log will be saved when the main.py or main.ipynb files have been run.
