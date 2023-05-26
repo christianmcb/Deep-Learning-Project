@@ -5,6 +5,8 @@ These models have been built using Python version 3.9.16 and PyTorch version 1.1
 
 **Directory Guidance**
 
+  - [**Assignment.xlsx**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/Assignment.xlsx) shows the results of the model training tasks based on experiments.
+
 Notebooks:
   - [**main.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/main.ipynb) shows the full building and running to produce best model.
   - [**augmentation.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/augmentation.ipynb) gives an overview of the different image augmentation methods used in this project.
@@ -14,12 +16,13 @@ Notebooks:
   - **csv files** save of the descriptive statistics from the exploration.ipynb
 
 Code - OOP Programming of the Project:
-  - **main.py** running this file will train the model and produce results saved in "./models"
-  - **dataset.py** the torch dataset for loading and normalising images.
-  - **model.py** builds a U-Net convolutional neural network and load DeepLabV3_MobileNetV3 from PyTorch.
-  - **optimiser.py** loads the SGD and ADAM optimisers from PyTorch.
-  - **readFiles.py** reads the directories of the images saved in "./dfuc2022/"
-  - **training.py** provides the training loop for training and evaluation of validation data.
+  - [**main.py**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/code/main.py) running this file will train the model and produce results saved in "./models"
+  - [**loss.py**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/code/loss.py) defines the dice loss function, the IOU evaluation metric and loads BCE with Logits Loss from Pytorch.
+  - [**dataset.py**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/code/dataset.py) the torch dataset for loading and normalising images.
+  - [**model.py**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/code/dataset.py) builds a U-Net convolutional neural network and load DeepLabV3_MobileNetV3 from PyTorch.
+  - [**optimiser.py**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/code/optimiser.py) loads the SGD and ADAM optimisers from PyTorch.
+  - [**readFiles.py**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/code/readFiles.py) reads the directories of the images saved in "./dfuc2022/"
+  - [**training.py**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/code/training.py) provides the training loop for training and evaluation of validation data.
 
 
 **Example Model Save:**
