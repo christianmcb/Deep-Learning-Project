@@ -6,10 +6,10 @@ These models have been built using Python version 3.9.16 and PyTorch version 1.1
 **Directory Guidance**
 Notebooks:
   - [**main.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/main.ipynb) shows the full building and running to produce best model.
-  - **augmentation.ipynb** gives an overview of the different image augmentation methods used in this project.
-  - **exploration.ipynb** explores the dataset and gives an overview of statistics.
-  - **modelTesting.ipynb** evaluates the baseline and best models that have been trialled.
-  - **train_test_split.ipynb** shows an example of how the images can be split into training and testing lists.
+  - [**augmentation.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/augmentation.ipynb) gives an overview of the different image augmentation methods used in this project.
+  - [**exploration.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/exploration.ipynb) explores the dataset and gives an overview of statistics.
+  - [**modelTesting.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/modelTesting.ipynb) evaluates the baseline and best models that have been trialled.
+  - [**train_test_split.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/train_test_split.ipynb) shows an example of how the images can be split into training and testing lists.
   - **csv files** save of the descriptive statistics from the exploration.ipynb
 
 Code - OOP Programming of the Project:
