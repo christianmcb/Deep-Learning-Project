@@ -4,6 +4,7 @@ This project implements U-Net and DeepLabV3_MobileNetV3 deep learning models for
 These models have been built using Python version 3.9.16 and PyTorch version 1.12.1.
 
 **Directory Guidance**
+
 Notebooks:
   - [**main.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/main.ipynb) shows the full building and running to produce best model.
   - [**augmentation.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/augmentation.ipynb) gives an overview of the different image augmentation methods used in this project.
