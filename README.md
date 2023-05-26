@@ -5,7 +5,7 @@ These models have been built using Python version 3.9.16 and PyTorch version 1.1
 
 **Directory Guidance**
 Notebooks:
-  - **main.ipynb** shows the full building and running to produce best model.
+  - [**main.ipynb**](https://github.com/christianmcb/Deep-Learning-Project/blob/main/notebooks/main.ipynb) shows the full building and running to produce best model.
   - **augmentation.ipynb** gives an overview of the different image augmentation methods used in this project.
   - **exploration.ipynb** explores the dataset and gives an overview of statistics.
   - **modelTesting.ipynb** evaluates the baseline and best models that have been trialled.
